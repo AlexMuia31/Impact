@@ -18,6 +18,7 @@ export const GeneralTypo = styled(Typography)({
   fontSize: "20px",
   fontFamily: "Manrope",
   letterSpacing: "2px",
+  //offRamp
 });
 
 export const FooterTypo = styled(Typography)({
