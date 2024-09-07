@@ -27,4 +27,5 @@ export const FooterTypo = styled(Typography)({
   fontStyle: "normal",
   fontWeight: 400,
   lineHeight: "normal",
+  //onramp
 });
