@@ -8,6 +8,7 @@ export const GetStartedButton = styled(Button)({
   color: "#fff",
   "&:hover": {
     background: "#DE0687",
+    //test
   },
   paddingRight: "4%",
   paddingLeft: "4%",
