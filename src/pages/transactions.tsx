@@ -9,6 +9,7 @@ import Typography from "@mui/material/Typography";
 import GetFiat from "@/components/GetFiat";
 import GetCrypto from "@/components/GetCrypto";
 import ConnectWallet from "@/components/ConnectWallet";
+import { CustomTextField } from "@/components/TextFields";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -97,6 +98,50 @@ const Transactions = () => {
               <GetCrypto />
             </TabPanel>
           </SwipeableViews>
+        </Box>
+        <Box
+          sx={{
+            background: "#031B34",
+            borderRadius: "5px !important",
+            mt: "4%",
+            p: 4,
+          }}
+        >
+          <Typography variant="h6" sx={{ color: "#fff", textAlign: "center" }}>
+            Withdraw to Mpesa
+          </Typography>
+          <Typography sx={{ color: "#fff", mt: "4%" }}>
+            Enter your Phone Number:
+          </Typography>
+          <CustomTextField
+            fullWidth
+            inputProps={{
+              sx: {
+                "&::placeholder": {
+                  color: "#fff",
+                },
+                color: "#fff",
+                backgroundColor: "grey",
+                borderRadius: "12px",
+              },
+            }}
+          />
+          <Typography sx={{ color: "#fff", mt: "2%" }}>
+            Enter amount:
+          </Typography>
+          <CustomTextField
+            fullWidth
+            inputProps={{
+              sx: {
+                "&::placeholder": {
+                  color: "#fff",
+                },
+                color: "#fff",
+                backgroundColor: "grey",
+                borderRadius: "12px",
+              },
+            }}
+          />
         </Box>
       </Container>
     </Box>
