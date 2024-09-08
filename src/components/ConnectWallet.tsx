@@ -112,6 +112,20 @@ const ConnectWallet = () => {
     setSnackbarOpen(true);
   };
 
+  const handleDisconnect = () => {
+    // Clear the local storage
+    localStorage.removeItem("walletAddress");
+    localStorage.removeItem("balance");
+
+    // Reset the state
+    setWalletAddress(null);
+    setBalance(null);
+    setIsConnected(false);
+
+    setSnackbarMessage("Wallet disconnected!");
+    setSnackbarOpen(true);
+  };
+
   return (
     <Box>
       {walletAddress && (
@@ -129,13 +143,18 @@ const ConnectWallet = () => {
 
           {balance !== null ? (
             <Typography variant="h6" sx={{ color: "#fff" }}>
-              Balance: {balance || 0} USDT
+              Balance: {balance || 0} KSH
             </Typography>
           ) : (
             <Typography variant="h6" sx={{ color: "#fff" }}>
               Loading balance...
             </Typography>
           )}
+
+          {/* Disconnect Wallet button */}
+          <PinkButton onClick={handleDisconnect} sx={{ mt: 2 }}>
+            Disconnect Wallet
+          </PinkButton>
         </Box>
       )}
       {!isConnected && (
