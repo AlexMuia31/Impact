@@ -1,0 +1,24 @@
+import { app } from "../app";
+import { api } from "../api";
+import {bscRouter} from "./bsc";
+import {onRampRouter} from "./onRampTxnChecker";
+import {balanceCheckerRouter} from "./balanceChecker";
+import { connectUser} from "./userConnect";
+import {walletRouter} from "./wallet-bal-transactions";
+import {cmcPriceFeedRouter} from "./cmc-price-feed";
+import {b2cRouter} from "./b2c";
+import {offRampRouter} from "./offRampTxnChecker";
+import { feesRouter } from "./getFees";
+import {pravado} from "./pravado";
+
+app.use("/api/v1", api);
+app.use("/api/v1", bscRouter);
+app.use("/api/v1", onRampRouter);
+app.use("/api/v1", offRampRouter);
+app.use("/api/v1", balanceCheckerRouter);
+app.use("/api/v1", connectUser);
+app.use("/api/v1", walletRouter);
+app.use("/api/v1", cmcPriceFeedRouter);
+app.use("/api/v1", b2cRouter);
+app.use("/api/v1", feesRouter);
+app.use("/api/v1", pravado);
