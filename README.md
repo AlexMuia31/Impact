@@ -6,9 +6,11 @@ A crucial component of MusaPay’s infrastructure is its integration with Privad
 Your Customer) and AML (Anti-Money Laundering) checks, maintaining compliance with regulatory standards while preserving privacy. Privado ID verifies users’ credentials without exposing sensitive data, making the platform secure and compliant with global regulations.
 
 MusaPay is aimed at facilitating the adoption of cryptocurrencies in emerging markets by addressing common challenges such as accessibility, trust, and regulation. By merging Mpesa’s extensive mobile money network with crypto and blockchain-based KYC solutions, MusaPay simplifies the crypto experience for users and opens up new opportunities for financial inclusion.
-![Screenshot from 2024-09-08 11-17-36](https://github.com/user-attachments/assets/4995e68a-65f7-4614-9906-59819ddb9f81)
 ![Screenshot from 2024-09-08 11-17-36](https://github.com/user-attachments/assets/1caa98de-6956-4454-b87f-94d6a079366c)
 ![Screenshot from 2024-09-08 11-13-00](https://github.com/user-attachments/assets/44d7b668-c5f7-49f7-be79-f604a6c4655c)
 ![Screenshot from 2024-09-08 10-03-01](https://github.com/user-attachments/assets/ff97199e-cae7-4c45-8e3e-0eb861df687c)
+
+![Screenshot from 2024-09-08 11-13-35](https://github.com/user-attachments/assets/a221f3e4-2a24-47b0-9931-38083a2f548d)
+
 
 https://www.loom.com/share/b3c9a471eef34d1fb0f0bf6a3c5aad66
