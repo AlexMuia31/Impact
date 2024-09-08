@@ -54,6 +54,7 @@ export default function Home() {
   return (
     <Box sx={{ minHeight: "100vh", background: "#040C18", pb: "10%" }}>
       <Toolbar />
+      {/* Main Component  */}
       <Container maxWidth="xl">
         <Grid container spacing={2}>
           <Grid
